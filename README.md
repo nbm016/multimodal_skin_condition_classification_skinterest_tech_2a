@@ -1,1 +1,1 @@
-# multimodal_skin_classification_skinterest_tech
+# Multi-Modal Skin Condition Classification

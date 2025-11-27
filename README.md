@@ -1,7 +1,5 @@
 # Multi-Modal Skin Condition Classification - Skinterest Tech 2A
 
-⚠️ _Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and examples in this template before finalizing your README._
-
 ---
 
 ### 👥 **Team Members**
@@ -11,7 +9,7 @@
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | Nivi Munjal    | @nbm016 | Data cleaning and exploration, image similarity analysis, visualization, model research            |
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Sarah Shafiq   | @sshafiq1     | Data preprocessing, Model selection, model training and optimization       |
 | Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
 | Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |

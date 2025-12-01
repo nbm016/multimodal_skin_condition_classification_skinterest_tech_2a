@@ -10,9 +10,8 @@
 |------------------|---------------|--------------------------------------------------------------------------|
 | Nivi Munjal    | @nbm016 | Data cleaning and exploration, image similarity analysis, visualization, model research            |
 | Sarah Shafiq   | @sshafiq1     | Data preprocessing, Model selection, model training and optimization       |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
+| Mahek Patel     | @mahekp05  | Data preprocessing, Image Analysis, Image Cleaning, Model training, Database Configurations, Metrics Research                 |
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
 
 ---
 

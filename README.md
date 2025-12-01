@@ -19,9 +19,9 @@
 
 **Example:**
 
-- Developed a machine learning model using `[model type/technique]` to address `[challenge project task]`.
+- Developed a machine learning model using computer vision and supervised learning to address skin classification problems for different population subgroups
 - Achieved `[key metric or result]`, demonstrating `[value or impact]` for `[host company]`.
-- Generated actionable insights to inform business decisions at `[host company or stakeholders]`.
+- Generated actionable insights to inform business decisions at `Skinterest Tech`.
 - Implemented `[specific methodology]` to address industry constraints or expectations.
 
 ---

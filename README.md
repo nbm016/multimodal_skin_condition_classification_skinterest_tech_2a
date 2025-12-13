@@ -107,15 +107,12 @@ Examples of User-Submitted Skin Conditions (Multiple Angles Included):
 
 ## 📈 **Results & Key Findings**
 
-**You might consider describing the following (as applicable):**
+* All models performed with around 99% training accuracy but that would drop to around 20% validation accuracy.
+* Models performed better on identifying larger class labels like eczema or allergic contact dermatitis.
+* ResNet evaluation metrics:
+<br>
+<img src = "./images/resnet.png" alt="ResNet evaluation metrics chart" width = "600">
 
-* Performance metrics (e.g., Accuracy, F1 score, RMSE)
-* How your model performed
-* Insights from evaluating model fairness
-
-**Potential visualizations to include:**
-
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
 
 ---
 
@@ -143,6 +140,6 @@ This project is licensed under the MIT License.
 * Randellini, E. (2023, January 5). Image classification: ResNet vs EfficientNet vs EfficientNet_v2 vs Compact Convolutional…. Medium. https://medium.com/@enrico.randellini/image-classification-resnet-vs-efficientnet-vs-efficientnet-v2-vs-compact-convolutional-c205838bbf49 
 ---
 
-## 🙏 **Acknowledgements** (Optional but encouraged)
+## 🙏 **Acknowledgements** 
 
-Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+Thank you to our BTT Coach Nandini Proothi, and our Challenge Advisors from Skinterest Tech, Ashley Abid and Thandi Robins.

@@ -2,9 +2,8 @@
 
 ---
 
-### 👥 **Team Members**
+## 👥 **Team Members**
 
-**Example:**
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
@@ -28,13 +27,10 @@
 
 ## 👩🏽‍💻 **Setup and Installation**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
-
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+* View the notebook files in this repository for data exploration, data cleaning, image analysis, and model building/training of this dataset.
+* Place the notebook files in Google Colab to run the code. Google Colab will ask for authorization when running the code.
+* The SCIN dataset for this project is accessed from the code.
+* To save the trained models, adjust the filepaths in the code to desired filepaths/locations. 
 
 ---
 

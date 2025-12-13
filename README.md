@@ -67,8 +67,18 @@
 * Many images did not have an associated skin condition label and confidence score.
 * Other missing data for certain metadata columns (race/ethnicity, age).
 
-**Data and Image Visualizations**
-Distribution of race of dataset users
+**Data and Image Visualizations** <br><br>
+Race Distribution of Dataset's Users:
+<br><br>
+<img src="./images/SCIN_Dataset_Race_Feature.png" alt="Race distribution of dataset users" width="350"/>
+<br><br>
+
+Examples of User-Submitted Skin Conditions (Multiple Angles Included):
+<br><br>
+<img src="./images/Similar_Images_1.png" alt="Similar images 1" width="400"/>
+<img src="./images/Similar_Images_2.png" alt="Similar images 1" width="400"/>
+<img src="./images/Similar_Images_3.png" alt="Similar images 1" width="400"/>
+<img src="./images/Similar_Images_4.png" alt="Similar images 1" width="400"/>
 
 
 ---

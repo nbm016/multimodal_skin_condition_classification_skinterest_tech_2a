@@ -111,7 +111,7 @@ Examples of User-Submitted Skin Conditions (Multiple Angles Included):
 * Models performed better on identifying larger class labels like eczema or allergic contact dermatitis.
 * ResNet evaluation metrics:
 <br>
-<img src = "./images/resnet.png" alt="ResNet evaluation metrics chart" width = "600">
+<img src = "./images/resnet.png" alt="ResNet evaluation metrics chart" width = "100%">
 
 
 ---

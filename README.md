@@ -46,16 +46,30 @@
 
 ## 📊 **Data Exploration**
 
-**You might consider describing the following (as applicable):**
+**Dataset: Skin Condition Image Network (SCIN) Google Dataset**
+* Crowdsourced from Google Search users to increase the diversity of dermatology images available for public health education and research.
+* Images in dataset are paired with self-reported metadata dermatologist expert skin condition labels.
+* Emphasis of diversity and fairness in this dataset compared to other skin condition datasets.
+* Format: Google Cloud Storage (GCS) - User Metadata and Images
+* Relevant Features: Dermatologist condition labels and confidence scores, race and ethnicity, monk skin tone scale, image paths
+* Size: 5,000+ user contributions and 10,000+ total images (up to 3 images per user/case)
+* Types of Data: Images, Text, Categorical
+  
+**Exploration and Preprocessing Approaches**
+* Removed images from dataset with low quality, such as low brightness.
+* Identified similar images to capture a variety of angles for certain skin condition images. 
+* Conducted a diversity analysis of submitted photos using race/ethnicity and monk skin tone scale.
+* Representation of common skin conditions in dataset (eczema).
+* Metadata about users and their submitted skin condition photos (age, location of skin condition, relevant symptoms, texture of conditions, and more). 
 
-* The dataset(s) used: origin, format, size, type of data
-* Data exploration and preprocessing approaches
-* Insights from your Exploratory Data Analysis (EDA)
-* Challenges and assumptions when working with the dataset(s)
+**Challenges In Dataset**
+* Fair representation of diversity in dermatology.
+* Many images did not have an associated skin condition label and confidence score.
+* Other missing data for certain metadata columns (race/ethnicity, age).
 
-**Potential visualizations to include:**
+**Data and Image Visualizations**
+Distribution of race of dataset users
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
 
 ---
 

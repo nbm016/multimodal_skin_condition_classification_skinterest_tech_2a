@@ -8,7 +8,7 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Nivi Munjal    | @nbm016 | Data Cleaning and Exploration, Image Similarity Analysis, Data Visualization, Model Research, Model Building, Training, and Evaluation            |
+| Nivi Munjal    | @nbm016 | Data Cleaning and Exploration, Image Similarity Analysis, Data Visualization, Model Research, Building, Training, and Evaluation            |
 | Sarah Shafiq   | @sshafiq1     | Data preprocessing, Model selection, model training and optimization       |
 | Mahek Patel     | @mahekp05  | Data preprocessing, Image Analysis, Image Cleaning, Model training, Database Configurations, Metrics Research                 |
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |

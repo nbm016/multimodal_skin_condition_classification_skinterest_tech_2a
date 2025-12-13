@@ -42,6 +42,8 @@
 - Your AI Studio host company and the project objective and scope
 - The real-world significance of the problem and the potential impact of your work
 
+* “47% of dermatologists felt that their training was inadequate to diagnose skin disease in SOC (Skin of Color) patients.” (Narla et al., 2022)
+
 <br>
 <img src="./images/BTT logo.png" alt="Similar images 1" width="200"/>
 <img src="./images/Skinterest logo.png" alt="Similar images 1" width="200"/>
@@ -58,18 +60,21 @@
 * Relevant Features: Dermatologist condition labels and confidence scores, race and ethnicity, monk skin tone scale, image paths
 * Size: 5,000+ user contributions and 10,000+ total images (up to 3 images per user/case)
 * Types of Data: Images, Text, Categorical
+<br>
   
 **Exploration and Preprocessing Approaches**
 * Removed images from dataset with low quality, such as low brightness.
 * Identified similar images to capture a variety of angles for certain skin condition images. 
 * Conducted a diversity analysis of submitted photos using race/ethnicity and monk skin tone scale.
 * Representation of common skin conditions in dataset (eczema).
-* Metadata about users and their submitted skin condition photos (age, location of skin condition, relevant symptoms, texture of conditions, and more). 
+* Metadata about users and their submitted skin condition photos (age, location of skin condition, relevant symptoms, texture of conditions, and more).
+<br>
 
-**Challenges In Dataset**
+**Challenges in Dataset**
 * Fair representation of diversity in dermatology.
 * Many images did not have an associated skin condition label and confidence score.
 * Other missing data for certain metadata columns (race/ethnicity, age).
+<br>
 
 **Data and Image Visualizations** <br><br>
 Race Distribution of Dataset's Users:
@@ -83,6 +88,8 @@ Examples of User-Submitted Skin Conditions (Multiple Angles Included):
 <img src="./images/Similar_Images_2.png" alt="Similar images 1" width="400"/>
 <img src="./images/Similar_Images_3.png" alt="Similar images 1" width="400"/>
 <img src="./images/Similar_Images_4.png" alt="Similar images 1" width="400"/>
+
+<br>
 
 
 ---
@@ -114,11 +121,9 @@ Examples of User-Submitted Skin Conditions (Multiple Angles Included):
 
 ## 🚀 **Next Steps**
 
-**You might consider addressing the following (as applicable):**
-
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
+* Experiment with additional feature combinations for model building and training
+* Apply both supervised and unsupervised machine learning methods to learn hidden trends and patterns, especially with unlabeled data.
+* Web application of skin condition classification: Users can submit their own skin condition images and have them evaluated in real-time by models. 
 
 ---
 
@@ -131,10 +136,11 @@ This project is licensed under the MIT License.
 
 ---
 
-## 📄 **References** (Optional but encouraged)
+## 📄 **References**
 
-Cite relevant papers, articles, or resources that supported your project.
-
+* Hartanto, D., & Herawati, R. (2024). COMPARATIVE ANALYSIS OF EFFICIENTNET AND RESNET MODELS IN THE CLASSIFICATION OF SKIN CANCER. Proxies : Jurnal Informatika, 7(2), 69–84. https://doi.org/10.24167/proxies.v7i2.12468
+* Narla, S., Heath, C. R., Alexis, A., & Silverberg, J. I. (2022). Racial disparities in dermatology. Archives of Dermatological Research, 315(5). https://doi.org/10.1007/s00403-022-02507-z (https://pmc.ncbi.nlm.nih.gov/articles/PMC9743121/)
+* Randellini, E. (2023, January 5). Image classification: ResNet vs EfficientNet vs EfficientNet_v2 vs Compact Convolutional…. Medium. https://medium.com/@enrico.randellini/image-classification-resnet-vs-efficientnet-vs-efficientnet-v2-vs-compact-convolutional-c205838bbf49 
 ---
 
 ## 🙏 **Acknowledgements** (Optional but encouraged)

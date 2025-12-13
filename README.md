@@ -42,6 +42,10 @@
 - Your AI Studio host company and the project objective and scope
 - The real-world significance of the problem and the potential impact of your work
 
+<br>
+<img src="./images/BTT logo.png" alt="Similar images 1" width="200"/>
+<img src="./images/Skinterest logo.png" alt="Similar images 1" width="200"/>
+
 ---
 
 ## 📊 **Data Exploration**

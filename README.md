@@ -164,10 +164,10 @@ These findings motivated future work on data balancing, multimodal feature integ
 
 ## ⚠️ Limitations
 
-* Severe class imbalance and rare skin condition labels limited generalization.
-* A large portion of images lacked dermatologist condition labels and confidence scores.
-* Multimodal image + metadata alignment challenges restricted early model performance.
-* Cloud-based training and compute constraints limited extensive hyperparameter tuning.
+* Some skin conditions had many more images than others, making it hard for the models to learn rare conditions.
+* Many images were missing dermatologist labels or confidence scores, which reduced the amount of usable training data.
+* Combining image data with metadata was challenging due to missing values and alignment issues.
+* Limited computing resources restricted extensive model tuning and experimentation.
 
 ---
 

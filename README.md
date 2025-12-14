@@ -9,19 +9,17 @@
 |------------------|---------------|--------------------------------------------------------------------------|
 | Nivi Munjal    | @nbm016 | Data Cleaning and Exploration, Image Similarity Analysis, Data Visualization, Model Research, Building, Training, and Evaluation            |
 | Sarah Shafiq   | @sshafiq1     | Data preprocessing, Model selection, model training and optimization       |
-| Mahek Patel     | @mahekp05  | Data preprocessing, Image Analysis, Image Cleaning, Model training, Database Configurations, Metrics Research                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
+| Mahek Patel     | @mahekp05  | Data preprocessing, Image Analysis, Image Cleaning, Model training, Database Configurations, Metrics Research | 
+| Adhuresa Ukaj      | @adhuresau      | Data preprocessing, image analysis, and feature preparation for modeling |
 
 ---
 
 ## 🎯 **Project Highlights**
 
-**Example:**
-
-- Developed a machine learning model using computer vision and supervised learning to address skin classification problems for different population subgroups
-- Achieved `[key metric or result]`, demonstrating `[value or impact]` for `[host company]`.
-- Generated actionable insights to inform business decisions at `Skinterest Tech`.
-- Implemented `[specific methodology]` to address industry constraints or expectations.
+- Developed a machine learning model using computer vision and supervised learning to address skin classification problems for different population subgroups using diverse user-submitted photos
+- Leveraged the Google Skin Condition Image Network (SCIN) dataset, which emphasizes fairness, diversity, and representation across skin tones.
+- Explored CNN and transfer learning models (ResNet-50) and analyzed challenges such as class imbalance, missing labels, and overfitting.
+- Generated insights on data quality, fairness metrics, and modeling limitations to inform future inclusive AI development at Skinterest Tech.
 
 ---
 
@@ -35,8 +33,6 @@
 ---
 
 ## 🏗️ **Project Overview**
-
-**Describe:**
 
 This project was developed as part of the **Break Through Tech AI Program (AI Studio)** in collaboration with **Skinterest Tech**. The goal of the project was to explore the use of machine learning and computer vision techniques to improve skin condition classification across diverse populations, with a particular focus on fairness and representation.
 
@@ -157,10 +153,21 @@ These findings motivated future work on data balancing, multimodal feature integ
 
 * All models performed with around 99% training accuracy but that would drop to around 20% validation accuracy.
 * Models performed better on identifying larger class labels like eczema or allergic contact dermatitis.
+* The CNN baseline memorized training data, while the ResNet-50 model remained near random performance due to class imbalance and limited labeled data.
+* These results highlight the difficulty of dermatology classification with real-world, imbalanced datasets and the need for richer evaluation metrics beyond accuracy.
+
 * ResNet evaluation metrics:
 
 <img src = "./images/resnet.png" alt="ResNet evaluation metrics chart" width = "100%">
 
+---
+
+## ⚠️ Limitations
+
+* Severe class imbalance and rare skin condition labels limited generalization.
+* A large portion of images lacked dermatologist condition labels and confidence scores.
+* Multimodal image + metadata alignment challenges restricted early model performance.
+* Cloud-based training and compute constraints limited extensive hyperparameter tuning.
 
 ---
 

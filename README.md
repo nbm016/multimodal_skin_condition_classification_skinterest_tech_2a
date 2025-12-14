@@ -49,6 +49,17 @@ This work has real-world significance in helping improve diagnostic support tool
 
 ---
 
+## 💻 **Code Highlights**
+**Code Files**
+* Coding for this project utilized Google Colab notebooks, which can be found in the main repository.
+* Files in the format of "Skinterest_Tech_2A_Coding_1.ipynb" contain data exploration, cleaning, preprocessing, and image analysis for a smaller subset of the SCIN dataset.
+* Files in the format of "SCIN_Dataset_Colab2.ipynb" contain data exploration, cleaning, preprocessing, and image analysis for the full SCIN dataset.
+* Files in the format of "Model_Building.ipynb" contain model building, training, and evaluation.
+
+**Coding Libraries**
+* Python Pandas, TensorFlow, SciPy, Matplotlib, OpenCV, ImageDedup
+---
+
 ## 📊 **Data Exploration**
 
 **Dataset: Skin Condition Image Network (SCIN) Google Dataset**

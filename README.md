@@ -174,10 +174,7 @@ These findings motivated future work on data balancing, multimodal feature integ
 
 ## 📝 **License**
 
-If applicable, indicate how your project can be used by others by specifying and linking to an open source license type (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type.
-
-**Example:**
-This project is licensed under the MIT License.
+This project is licensed under the <a href="https://mit-license.org">MIT License</a>.
 
 ---
 

@@ -38,11 +38,14 @@
 
 **Describe:**
 
-- How this project is connected to the Break Through Tech AI Program
-- Your AI Studio host company and the project objective and scope
-- The real-world significance of the problem and the potential impact of your work
+This project was developed as part of the **Break Through Tech AI Program (AI Studio)** in collaboration with **Skinterest Tech**. The goal of the project was to explore the use of machine learning and computer vision techniques to improve skin condition classification across diverse populations, with a particular focus on fairness and representation.
 
-* “47% of dermatologists felt that their training was inadequate to diagnose skin disease in SOC (Skin of Color) patients.” (Narla et al., 2022)
+Skinterest Tech aims to transform the dermatology and skincare space by providing more inclusive and comprehensive skin analysis tools. Many existing dermatology datasets and models underrepresent individuals with darker skin tones, which can lead to biased or unreliable predictions. This project addresses that gap by leveraging the **Google Skin Condition Image Network (SCIN)** dataset, which was explicitly designed to emphasize diversity, fairness metrics, and real-world user-submitted images.
+
+The objective of this work was to design, train, and evaluate image-based and multimodal models capable of classifying skin conditions from user-submitted photos, while identifying the technical and data-related challenges that arise when working with large, diverse medical image datasets. The scope of the project included data exploration, image quality analysis, preprocessing, model selection, training, evaluation, and reflection on limitations related to class imbalance, missing labels, and fairness considerations.
+
+This work has real-world significance in helping improve diagnostic support tools for underrepresented populations and advancing fairness-aware machine learning practices in healthcare-related applications.
+
 
 <br>
 <img src="./images/BTT logo.png" alt="Similar images 1" width="200"/>

@@ -96,11 +96,56 @@ Examples of User-Submitted Skin Conditions (Multiple Angles Included):
 
 ## 🧠 **Model Development**
 
-**You might consider describing the following (as applicable):**
+### Models Used
+We explored both baseline and transfer learning–based computer vision models for skin condition classification.
 
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+- **Baseline CNN**  
+  Implemented a lightweight convolutional neural network with two convolutional layers (32 and 64 filters) to validate the data pipeline and establish baseline performance.
+
+- **Transfer Learning (ResNet-50)**  
+  Used a pretrained ResNet-50 architecture as the primary image backbone. Residual connections help stabilize training for deeper networks and improve feature extraction on complex dermatology images.
+
+- **Multimodal Extension (Image + Metadata)**  
+  Experimented with a multimodal architecture that fused image embeddings with structured metadata via a parallel feature branch. This approach aimed to incorporate clinical context alongside visual patterns, though missing data and alignment issues limited early performance.
+
+
+### Feature Selection and Engineering
+We evaluated multiple feature groups from the SCIN dataset:
+
+- Image features: RGB images resized to 224×224 and normalized
+- Clinical metadata: body location, condition symptoms, texture indicators
+- Fairness-related attributes: Monk Skin Tone (MST), Fitzpatrick skin type
+- Demographic attributes: race/ethnicity (used cautiously due to missing values)
+
+For supervised learning, samples without dermatologist-labeled skin condition labels were removed to avoid noisy supervision. Image quality filtering was applied to remove extremely low-brightness images unless diagnostic texture or redness was still visible.
+
+
+### Hyperparameter Tuning Strategy
+Due to dataset size and cloud-based training constraints, hyperparameter tuning was conducted iteratively rather than through exhaustive grid search. Experiments focused on:
+
+- Learning rate adjustments using the Adam optimizer
+- Batch size tuning to improve training stability
+- Exploration of regularization techniques (dropout and L2, planned for future work)
+- Freezing versus partial unfreezing of pretrained layers
+
+Tuning decisions were guided by observed behaviors such as overfitting, stagnant validation accuracy, and loss instability.
+
+### Training Setup and Evaluation
+- Data split: stratified train/validation split where class counts allowed
+- Training environment: TensorFlow in Google Colab with images streamed directly from Google Cloud Storage (GCS)
+- Loss function: sparse categorical cross-entropy
+- Optimizer: Adam
+- Primary evaluation metric: accuracy
+- Additional metrics considered: precision, recall, F1-score, balanced accuracy
+
+### Baseline Performance and Observations
+- **CNN baseline:**  
+  Achieved very high training accuracy (approximately 99%) but poor validation accuracy (approximately 20%), indicating strong overfitting and memorization.
+
+- **ResNet-50 baseline:**  
+  Training and validation accuracy remained near random chance, highlighting challenges related to class imbalance, limited labeled data per class, and the need for further tuning.
+
+These findings motivated future work on data balancing, multimodal feature integration, and richer evaluation metrics beyond raw accuracy.
 
 
 ---

@@ -16,7 +16,7 @@
 
 ## 🎯 **Project Highlights**
 
-- Developed a machine learning model using computer vision and supervised learning to address skin classification problems for different population subgroups using diverse user-submitted photos
+- Developed a machine learning model utilizing computer vision and supervised learning to address skin classification problems for different population subgroups through diverse user-submitted photos.
 - Leveraged the Google Skin Condition Image Network (SCIN) dataset, which emphasizes fairness, diversity, and representation across skin tones.
 - Explored CNN and transfer learning models (ResNet-50) and analyzed challenges such as class imbalance, missing labels, and overfitting.
 - Generated insights on data quality, fairness metrics, and modeling limitations to inform future inclusive AI development at Skinterest Tech.

@@ -57,7 +57,7 @@ This work has real-world significance in helping improve diagnostic support tool
 * Files in the format of "Model_Building.ipynb" contain model building, training, and evaluation.
 
 **Coding Libraries**
-* Python Pandas, TensorFlow, SciKit Learn, SciPy, Matplotlib, OpenCV, ImageDedup
+* Python Pandas, TensorFlow, Scikit-Learn, SciPy, Matplotlib, OpenCV, ImageDedup
 ---
 
 ## 📊 **Data Exploration**

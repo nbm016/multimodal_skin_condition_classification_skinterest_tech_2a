@@ -57,7 +57,7 @@ This work has real-world significance in helping improve diagnostic support tool
 * Files in the format of "Model_Building.ipynb" contain model building, training, and evaluation.
 
 **Coding Libraries**
-* Python Pandas, TensorFlow, SciPy, Matplotlib, OpenCV, ImageDedup
+* Python Pandas, TensorFlow, SciKit Learn, SciPy, Matplotlib, OpenCV, ImageDedup
 ---
 
 ## 📊 **Data Exploration**
@@ -76,8 +76,8 @@ This work has real-world significance in helping improve diagnostic support tool
 * Removed images from dataset with low quality, such as low brightness.
 * Identified similar images to capture a variety of angles for certain skin condition images. 
 * Conducted a diversity analysis of submitted photos using race/ethnicity and monk skin tone scale.
-* Representation of common skin conditions in dataset (eczema).
-* Metadata about users and their submitted skin condition photos (age, location of skin condition, relevant symptoms, texture of conditions, and more).
+* Highlighted the representation of common skin conditions in dataset (eczema).
+* Analyzed metadata about users and their submitted skin condition photos (age, location of skin condition, relevant symptoms, texture of conditions, and more).
 <br>
 
 **Challenges in Dataset**
